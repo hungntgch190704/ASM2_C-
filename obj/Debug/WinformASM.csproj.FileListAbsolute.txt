@@ -1,0 +1,14 @@
+D:\C#\WinformASM\bin\Debug\WinformASM.exe.config
+D:\C#\WinformASM\bin\Debug\WinformASM.exe
+D:\C#\WinformASM\bin\Debug\WinformASM.pdb
+D:\C#\WinformASM\obj\Debug\WinformASM.csprojAssemblyReference.cache
+D:\C#\WinformASM\obj\Debug\WinformASM.CGV.resources
+D:\C#\WinformASM\obj\Debug\WinformASM.Properties.Resources.resources
+D:\C#\WinformASM\obj\Debug\WinformASM.csproj.GenerateResource.cache
+D:\C#\WinformASM\obj\Debug\WinformASM.csproj.CoreCompileInputs.cache
+D:\C#\WinformASM\obj\Debug\WinformASM.exe
+D:\C#\WinformASM\obj\Debug\WinformASM.pdb
+D:\C#\WinformASM\obj\Debug\WinformASM.Login.resources
+D:\C#\WinformASM\obj\Debug\WinformASM.frmClient.resources
+D:\C#\WinformASM\obj\Debug\WinformASM.Identical.resources
+D:\C#\WinformASM\obj\Debug\WinformASM.Vehicle.resources
