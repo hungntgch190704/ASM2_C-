@@ -572,11 +572,18 @@ namespace WinformASM
             }
         }
 
+        static String randomID()
+        {
+            String randomstring = Path.GetRandomFileName();
+            randomstring = randomstring.Replace(".", string.Empty);
+            return randomstring;
+        }
+
         private void btnNext_Click(object sender, EventArgs e)
         {
             if (lbPopcorn.SelectedIndex != -1 && lbDrink.SelectedIndex != -1 && lbDate.SelectedIndex != -1 && detail != "" && lbShowTime.SelectedIndex != -1)
             {
-                information = Path.GetRandomFileName().Replace(".", string.Empty) + "\n" + "Name: " + Info[0] + "\n" + "Phone Number: " + Info[1] +
+                information = randomID() + "\n" + "Name: " + Info[0] + "\n" + "Phone Number: " + Info[1] +
                     "\n" + "Email: " + Info[2] + "\n" + "Address: " + Info[3] + "\n";
                 detail += "\n" + lbPopcorn.SelectedItem.ToString() + " " + nudPopcorn.Value.ToString() + "\n" + lbDrink.SelectedItem.ToString() +
                     " " + nudDrink.Value.ToString() + "\n"
@@ -593,11 +600,13 @@ namespace WinformASM
             }
         }
 
+        
+
         private void btnPurchase_Click_1(object sender, EventArgs e)
         {
            if (lbPopcorn.SelectedIndex!=-1 && lbDrink.SelectedIndex!=-1 && lbDate.SelectedIndex!=-1 && detail!="" && lbShowTime.SelectedIndex!=-1)
            {
-                information = Path.GetRandomFileName().Replace(".", string.Empty) + "\n" + "Name: " + Info[0] + "\n" + "Phone Number: " + Info[1] + "\n" + "Email: " + Info[2] + "\n" + "Address: " + Info[3] + "\n";
+                information = randomID() + "\n" + "Name: " + Info[0] + "\n" + "Phone Number: " + Info[1] + "\n" + "Email: " + Info[2] + "\n" + "Address: " + Info[3] + "\n";
                 detail += "\n" + lbPopcorn.SelectedItem.ToString() + " " + nudPopcorn.Value.ToString() + "\n" + lbDrink.SelectedItem.ToString() +
                     " " + nudDrink.Value.ToString() + "\n"
                     + lbClientFilm.SelectedItem.ToString()
